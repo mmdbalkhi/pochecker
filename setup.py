@@ -1,3 +1,6 @@
 from setuptools import setup
 
-setup()
+setup(
+    name="Pochecker",
+    requires=["click>=8"],
+)

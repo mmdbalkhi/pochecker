@@ -1,17 +1,24 @@
-[![codecov](https://codecov.io/gh/mmdbalkhi/breeze/branch/main/graph/badge.svg?token=6C8nLeyYht)](https://codecov.io/gh/mmdbalkhi/breeze)
-
 # Pochecker
 
-a tool to remove outdated documents' po files (Originally it is not be remove outdated po files, and just rename them to .po.outdated)
+a tool to rename outdated documents' `po` files (Originally it is not removed outdated `po` files, just rename them to `.po.outdated` )
 
-## Development
+## install
 
-```bash
-python -m pip install -r requirements-dev.txt
+via pip:
+
+```sh
+pip install Pochecker
 ```
 
-### Installing Pre-Commit Hooks
+via pipx: (recommended)
 
-```bash
-pre-commit install
+```sh
+pipx install Pochecker
+```
+
+or install from source:
+
+```sh
+git clone https://github.com/mmdbalkhi/Pochecker.git
+cd Pochecker && python3 setup.py install
 ```
